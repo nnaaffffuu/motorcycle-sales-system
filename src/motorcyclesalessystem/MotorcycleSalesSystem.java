@@ -5,6 +5,8 @@
  */
 package motorcyclesalessystem;
 
+import database.DatabaseConnection;
+import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.UIManager;
@@ -23,8 +25,9 @@ public class MotorcycleSalesSystem {
      */
     public static void main(String[] args) {
         try {
+            DatabaseConnection.initDB();
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException ex) {
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException | SQLException ex) {
             Logger.getLogger(MotorcycleSalesSystem.class.getName()).log(Level.SEVERE, null, ex);
         }
         new LoginUI().setVisible(true);

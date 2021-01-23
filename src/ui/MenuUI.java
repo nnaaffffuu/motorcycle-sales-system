@@ -3487,6 +3487,7 @@ public class MenuUI extends javax.swing.JFrame {
         // Inventory
         brandField.setDocument(new JTextFieldLimit(40));
         modelNoField.setDocument(new JTextFieldLimit(40));
+        modelNameField.setDocument(new JTextFieldLimit(40));
         chassisNoField.setDocument(new JTextFieldLimit(40));
         engineNoField.setDocument(new JTextFieldLimit(40));
         engineCapacityField.setDocument(new JTextFieldLimit(20));
