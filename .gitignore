@@ -1,3 +1,4 @@
 /dist/
 database/
 store/
+derby.log
