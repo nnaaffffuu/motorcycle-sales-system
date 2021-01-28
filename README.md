@@ -1,8 +1,14 @@
 # Motorcycle Sales System
+A simple motorcycle sales system made with Java Swing and Apache Derby for desktop.
 
-A simple motorcycle sales system made with Java Swing and Apache Derby.
+## Requirements
+* Java 8
 
-## Default credentials
+## How to Run
+* Jar files of the application is available in the *Releases* section of the Github repository
+* place the Jar file in the desired location
+* double clicking the Jar file will initialize the database in the same directory and open the application
 
-**Username:** admin  
-**Password:** 12345678
+## Default Login Credentials
+Username: admin  
+Password: 12345678
