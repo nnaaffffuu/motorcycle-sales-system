@@ -5,7 +5,7 @@ A simple motorcycle sales system made with Java Swing and Apache Derby for deskt
 * Java 8
 
 ## How to Run
-* download the jar file of the application from the *Releases* section of the github repository
+* download the jar file of the application from [here](https://github.com/nnaaffffuu/motorcycle-sales-system/releases)
 * place the jar file in the desired location
 * double clicking the jar file will initialize the database and open the application
 
